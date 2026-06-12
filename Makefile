@@ -7,8 +7,6 @@ CURRENT_SOURCE_DIR = $(SOURCE_DIR)/Emulator
 CURRENT_BUILD_DIR = $(BUILD_DIR)/Emulator
 CURRENT_DIST_DIR = $(DIST_DIR)/Emulator
 
-# 代理
-include $(SOURCE_DIR)/make/proxy.mk
 # 使用 PowerShell 作为 Makefile 的 shell
 include $(SOURCE_DIR)/make/pwsh.mk
 # CMake 设定
